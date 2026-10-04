@@ -3,3 +3,7 @@ CREATE TABLE libros (
     titulo VARCHAR(100),
     autor VARCHAR(100)
 );
+CREATE TABLE usuarios (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(100)
+);
